@@ -1,0 +1,37 @@
+
+Window:
+
+The window object represents an open window in a web browser. It is the global object in the browser's JavaScript environment 
+
+Some commonly used properties and methods of the window object include:
+
+- `window.location`: Provides information about the current URL and allows navigation to other URLs.
+- `window.alert()`: Displays an alert dialog box with a message.
+- `window.open()`: Opens a new browser window or tab.
+- `window.close()`: Closes the current window.
+
+
+Screen:
+
+The screen object represents the user's screen or monitor. It provides information about the screen's properties, such as its width, height, color depth, and pixel density.
+
+Some commonly used properties of the screen object include:
+
+- `screen.width`: The width of the screen in pixels.
+- `screen.height`: The height of the screen in pixels.
+- `screen.availWidth`: The available width for the browser window, excluding taskbars and other system elements.
+- `screen.availHeight`: The available height for the browser window.
+
+
+Document:
+
+The document object represents the HTML document loaded in the browser window. It provides access to the elements and content within the document, allowing you to manipulate and modify the HTML structure, styles, and interact with user events.
+
+Some commonly used ones include:
+
+- `document.getElementById()`: Retrieves an element from the document using its unique ID.
+- `document.querySelector()`: Retrieves the first element that matches a specific CSS selector.
+- `document.createElement()`: Creates a new HTML element dynamically.
+- `document.addEventListener()`: Registers an event handler for a specific event type.
+- `document.write()`: Writes HTML content directly to the document.
+
